@@ -27,11 +27,12 @@ def get_pretrain_loader(
     num_workers: int = 4,
     image_size: int = 96,
     data_dir: str | Path = DATA_DIR,
+    transform: transforms.Compose | None = None,
 ) -> DataLoader:
     """100k unlabeled split for pretraining."""
     dataset = datasets.STL10(
         root=str(data_dir), split="unlabeled", download=False,
-        transform=get_base_transform(image_size),
+        transform=transform or get_base_transform(image_size),
     )
     return DataLoader(
         dataset,
@@ -50,6 +51,7 @@ def get_eval_loaders(
     data_dir: str | Path = DATA_DIR,
     low_data_fraction: float = 0.01,
     low_data_seed: int = 42,
+    transform: transforms.Compose | None = None,
 ) -> dict[str, DataLoader]:
     """Labeled splits for evaluation.
 
@@ -58,7 +60,7 @@ def get_eval_loaders(
         "test": 8k labeled
         "train_lowdata": ~50 images (1% subset for low-data probe)
     """
-    transform = get_base_transform(image_size)
+    transform = transform or get_base_transform(image_size)
 
     train_ds = datasets.STL10(
         root=str(data_dir), split="train", download=False, transform=transform,
