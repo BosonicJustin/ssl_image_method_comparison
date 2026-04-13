@@ -1,0 +1,23 @@
+{
+  "method": "autoencoder",
+  "checkpoint": "results/autoencoder/best.pt",
+  "epoch": 492,
+  "training_loss": 0.005067472161056521,
+  "knn": {
+    "1": 0.26525,
+    "5": 0.273,
+    "10": 0.278375,
+    "20": 0.28225,
+    "50": 0.28425,
+    "100": 0.2765,
+    "200": 0.26125
+  },
+  "linear_probe": {
+    "accuracy": 0.469875,
+    "epochs": 100
+  },
+  "linear_probe_lowdata": {
+    "accuracy": 0.197375,
+    "epochs": 100
+  }
+}

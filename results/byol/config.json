@@ -1,0 +1,17 @@
+{
+  "backbone": "resnet18",
+  "proj_dim": 256,
+  "momentum": 0.996,
+  "epochs": 500,
+  "batch_size": 256,
+  "lr": 0.001,
+  "weight_decay": 1e-05,
+  "num_workers": 4,
+  "data_dir": "/home/justinas/ssl_image_method_comparison/data",
+  "log_dir": "results/byol",
+  "log_interval": 50,
+  "eval_interval": 5,
+  "save_interval": 50,
+  "seed": 42,
+  "resume": null
+}

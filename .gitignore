@@ -7,6 +7,7 @@ results/checkpoints/
 *.pt
 *.pth
 wandb/
+**/tb/
 
 # OS
 .DS_Store

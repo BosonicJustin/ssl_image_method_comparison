@@ -1,0 +1,20 @@
+{
+  "backbone": "resnet18",
+  "temperature": 0.5,
+  "proj_dim": 128,
+  "epochs": 500,
+  "batch_size": 256,
+  "lr": 0.001,
+  "weight_decay": 1e-05,
+  "num_workers": 4,
+  "data_dir": "/home/justinas/ssl_image_method_comparison/data",
+  "log_dir": "results/simclr",
+  "log_interval": 50,
+  "eval_interval": 5,
+  "save_interval": 50,
+  "seed": 42,
+  "wandb": false,
+  "wandb_project": "ssl-comparison",
+  "wandb_run_name": null,
+  "resume": null
+}

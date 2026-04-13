@@ -1,0 +1,398 @@
+[
+  {
+    "method": "autoencoder",
+    "checkpoint": "results/autoencoder/best.pt",
+    "checkpoint_name": "best.pt",
+    "epoch": 492,
+    "training_loss": 0.005067472161056521,
+    "knn": {
+      "1": 0.26525,
+      "5": 0.273,
+      "10": 0.278375,
+      "20": 0.28225,
+      "50": 0.28425,
+      "100": 0.2765,
+      "200": 0.26125
+    },
+    "linear_probe": 0.464375,
+    "linear_probe_lowdata": 0.204375
+  },
+  {
+    "method": "autoencoder",
+    "checkpoint": "results/autoencoder/checkpoint_0049.pt",
+    "checkpoint_name": "checkpoint_0049.pt",
+    "epoch": 49,
+    "training_loss": 0.007007869543173374,
+    "knn": {
+      "1": 0.36475,
+      "5": 0.372875,
+      "10": 0.37725,
+      "20": 0.374125,
+      "50": 0.359875,
+      "100": 0.3475,
+      "200": 0.337375
+    },
+    "linear_probe": 0.447375,
+    "linear_probe_lowdata": 0.2
+  },
+  {
+    "method": "autoencoder",
+    "checkpoint": "results/autoencoder/checkpoint_0099.pt",
+    "checkpoint_name": "checkpoint_0099.pt",
+    "epoch": 99,
+    "training_loss": 0.0060485125364114845,
+    "knn": {
+      "1": 0.3665,
+      "5": 0.371875,
+      "10": 0.383125,
+      "20": 0.37925,
+      "50": 0.367875,
+      "100": 0.352,
+      "200": 0.336625
+    },
+    "linear_probe": 0.44975,
+    "linear_probe_lowdata": 0.20775
+  },
+  {
+    "method": "autoencoder",
+    "checkpoint": "results/autoencoder/checkpoint_0149.pt",
+    "checkpoint_name": "checkpoint_0149.pt",
+    "epoch": 149,
+    "training_loss": 0.005710520682474359,
+    "knn": {
+      "1": 0.35625,
+      "5": 0.363375,
+      "10": 0.3725,
+      "20": 0.3745,
+      "50": 0.362875,
+      "100": 0.34675,
+      "200": 0.3345
+    },
+    "linear_probe": 0.449875,
+    "linear_probe_lowdata": 0.2045
+  },
+  {
+    "method": "autoencoder",
+    "checkpoint": "results/autoencoder/checkpoint_0199.pt",
+    "checkpoint_name": "checkpoint_0199.pt",
+    "epoch": 199,
+    "training_loss": 0.00551960725002946,
+    "knn": {
+      "1": 0.33875,
+      "5": 0.345125,
+      "10": 0.354875,
+      "20": 0.358625,
+      "50": 0.350625,
+      "100": 0.3395,
+      "200": 0.3285
+    },
+    "linear_probe": 0.44925,
+    "linear_probe_lowdata": 0.207125
+  },
+  {
+    "method": "autoencoder",
+    "checkpoint": "results/autoencoder/checkpoint_0249.pt",
+    "checkpoint_name": "checkpoint_0249.pt",
+    "epoch": 249,
+    "training_loss": 0.005371058852865528,
+    "knn": {
+      "1": 0.337,
+      "5": 0.34475,
+      "10": 0.357125,
+      "20": 0.35625,
+      "50": 0.35075,
+      "100": 0.338375,
+      "200": 0.3295
+    },
+    "linear_probe": 0.451625,
+    "linear_probe_lowdata": 0.203875
+  },
+  {
+    "method": "autoencoder",
+    "checkpoint": "results/autoencoder/checkpoint_0299.pt",
+    "checkpoint_name": "checkpoint_0299.pt",
+    "epoch": 299,
+    "training_loss": 0.005267364339520916,
+    "knn": {
+      "1": 0.31575,
+      "5": 0.328,
+      "10": 0.335,
+      "20": 0.33825,
+      "50": 0.328875,
+      "100": 0.3165,
+      "200": 0.30825
+    },
+    "linear_probe": 0.455875,
+    "linear_probe_lowdata": 0.202125
+  },
+  {
+    "method": "autoencoder",
+    "checkpoint": "results/autoencoder/checkpoint_0349.pt",
+    "checkpoint_name": "checkpoint_0349.pt",
+    "epoch": 349,
+    "training_loss": 0.005185804395482709,
+    "knn": {
+      "1": 0.2995,
+      "5": 0.31175,
+      "10": 0.320125,
+      "20": 0.32275,
+      "50": 0.314625,
+      "100": 0.30975,
+      "200": 0.3015
+    },
+    "linear_probe": 0.45825,
+    "linear_probe_lowdata": 0.205125
+  },
+  {
+    "method": "autoencoder",
+    "checkpoint": "results/autoencoder/checkpoint_0399.pt",
+    "checkpoint_name": "checkpoint_0399.pt",
+    "epoch": 399,
+    "training_loss": 0.0051222333445762975,
+    "knn": {
+      "1": 0.283875,
+      "5": 0.2955,
+      "10": 0.305,
+      "20": 0.30675,
+      "50": 0.30425,
+      "100": 0.299375,
+      "200": 0.288125
+    },
+    "linear_probe": 0.460125,
+    "linear_probe_lowdata": 0.20475
+  },
+  {
+    "method": "autoencoder",
+    "checkpoint": "results/autoencoder/checkpoint_0449.pt",
+    "checkpoint_name": "checkpoint_0449.pt",
+    "epoch": 449,
+    "training_loss": 0.005082269976488672,
+    "knn": {
+      "1": 0.26725,
+      "5": 0.27725,
+      "10": 0.286125,
+      "20": 0.28725,
+      "50": 0.28925,
+      "100": 0.282375,
+      "200": 0.2695
+    },
+    "linear_probe": 0.4635,
+    "linear_probe_lowdata": 0.203375
+  },
+  {
+    "method": "autoencoder",
+    "checkpoint": "results/autoencoder/checkpoint_0499.pt",
+    "checkpoint_name": "checkpoint_0499.pt",
+    "epoch": 499,
+    "training_loss": 0.005068854129132934,
+    "knn": {
+      "1": 0.26575,
+      "5": 0.2735,
+      "10": 0.2785,
+      "20": 0.282375,
+      "50": 0.283875,
+      "100": 0.276875,
+      "200": 0.2615
+    },
+    "linear_probe": 0.46525,
+    "linear_probe_lowdata": 0.20375
+  },
+  {
+    "method": "autoencoder",
+    "checkpoint": "results/autoencoder/last.pt",
+    "checkpoint_name": "last.pt",
+    "epoch": 499,
+    "training_loss": 0.005068854129132934,
+    "knn": {
+      "1": 0.26575,
+      "5": 0.2735,
+      "10": 0.2785,
+      "20": 0.282375,
+      "50": 0.283875,
+      "100": 0.276875,
+      "200": 0.2615
+    },
+    "linear_probe": 0.46525,
+    "linear_probe_lowdata": 0.20375
+  },
+  {
+    "method": "byol",
+    "checkpoint": "results/byol/best.pt",
+    "checkpoint_name": "best.pt",
+    "epoch": 472,
+    "training_loss": 0.18965150454105476,
+    "knn": {
+      "1": 0.7715,
+      "5": 0.795,
+      "10": 0.803125,
+      "20": 0.804,
+      "50": 0.7965,
+      "100": 0.793375,
+      "200": 0.784875
+    },
+    "linear_probe": 0.8415,
+    "linear_probe_lowdata": 0.685
+  },
+  {
+    "method": "byol",
+    "checkpoint": "results/byol/checkpoint_0049.pt",
+    "checkpoint_name": "checkpoint_0049.pt",
+    "epoch": 49,
+    "training_loss": 0.37833961309530795,
+    "knn": {
+      "1": 0.6645,
+      "5": 0.700625,
+      "10": 0.7095,
+      "20": 0.71425,
+      "50": 0.708375,
+      "100": 0.698875,
+      "200": 0.687625
+    },
+    "linear_probe": 0.759125,
+    "linear_probe_lowdata": 0.51875
+  },
+  {
+    "method": "byol",
+    "checkpoint": "results/byol/checkpoint_0099.pt",
+    "checkpoint_name": "checkpoint_0099.pt",
+    "epoch": 99,
+    "training_loss": 0.3548344933069669,
+    "knn": {
+      "1": 0.721,
+      "5": 0.747875,
+      "10": 0.75525,
+      "20": 0.756875,
+      "50": 0.75175,
+      "100": 0.74525,
+      "200": 0.733625
+    },
+    "linear_probe": 0.79525,
+    "linear_probe_lowdata": 0.61925
+  },
+  {
+    "method": "byol",
+    "checkpoint": "results/byol/checkpoint_0149.pt",
+    "checkpoint_name": "checkpoint_0149.pt",
+    "epoch": 149,
+    "training_loss": 0.3274868674767323,
+    "knn": {
+      "1": 0.7445,
+      "5": 0.776875,
+      "10": 0.784,
+      "20": 0.783625,
+      "50": 0.778125,
+      "100": 0.77125,
+      "200": 0.761625
+    },
+    "linear_probe": 0.819375,
+    "linear_probe_lowdata": 0.6535
+  },
+  {
+    "method": "byol",
+    "checkpoint": "results/byol/checkpoint_0199.pt",
+    "checkpoint_name": "checkpoint_0199.pt",
+    "epoch": 199,
+    "training_loss": 0.29511097425069566,
+    "knn": {
+      "1": 0.75975,
+      "5": 0.786375,
+      "10": 0.788875,
+      "20": 0.795875,
+      "50": 0.786375,
+      "100": 0.78125,
+      "200": 0.77275
+    },
+    "linear_probe": 0.826125,
+    "linear_probe_lowdata": 0.66075
+  },
+  {
+    "method": "byol",
+    "checkpoint": "results/byol/checkpoint_0249.pt",
+    "checkpoint_name": "checkpoint_0249.pt",
+    "epoch": 249,
+    "training_loss": 0.2563617911094274,
+    "knn": {
+      "1": 0.7615,
+      "5": 0.78975,
+      "10": 0.794375,
+      "20": 0.796875,
+      "50": 0.790125,
+      "100": 0.783875,
+      "200": 0.780875
+    },
+    "linear_probe": 0.836375,
+    "linear_probe_lowdata": 0.675375
+  },
+  {
+    "method": "byol",
+    "checkpoint": "results/byol/checkpoint_0299.pt",
+    "checkpoint_name": "checkpoint_0299.pt",
+    "epoch": 299,
+    "training_loss": 0.23245966403912274,
+    "knn": {
+      "1": 0.773125,
+      "5": 0.79425,
+      "10": 0.79925,
+      "20": 0.79825,
+      "50": 0.795,
+      "100": 0.791875,
+      "200": 0.783875
+    },
+    "linear_probe": 0.838125,
+    "linear_probe_lowdata": 0.67775
+  },
+  {
+    "method": "byol",
+    "checkpoint": "results/byol/checkpoint_0349.pt",
+    "checkpoint_name": "checkpoint_0349.pt",
+    "epoch": 349,
+    "training_loss": 0.21216057049922454,
+    "knn": {
+      "1": 0.76975,
+      "5": 0.794,
+      "10": 0.797875,
+      "20": 0.800875,
+      "50": 0.795125,
+      "100": 0.792625,
+      "200": 0.786
+    },
+    "linear_probe": 0.8395,
+    "linear_probe_lowdata": 0.68675
+  },
+  {
+    "method": "byol",
+    "checkpoint": "results/byol/checkpoint_0399.pt",
+    "checkpoint_name": "checkpoint_0399.pt",
+    "epoch": 399,
+    "training_loss": 0.20307718179164788,
+    "knn": {
+      "1": 0.7695,
+      "5": 0.7975,
+      "10": 0.80225,
+      "20": 0.801875,
+      "50": 0.7985,
+      "100": 0.79275,
+      "200": 0.785
+    },
+    "linear_probe": 0.84075,
+    "linear_probe_lowdata": 0.68375
+  },
+  {
+    "method": "byol",
+    "checkpoint": "results/byol/checkpoint_0449.pt",
+    "checkpoint_name": "checkpoint_0449.pt",
+    "epoch": 449,
+    "training_loss": 0.19212319209025455,
+    "knn": {
+      "1": 0.77225,
+      "5": 0.794875,
+      "10": 0.8015,
+      "20": 0.802875,
+      "50": 0.798,
+      "100": 0.793125,
+      "200": 0.787
+    },
+    "linear_probe": 0.84125,
+    "linear_probe_lowdata": 0.68325
+  }
+]
