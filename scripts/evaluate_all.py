@@ -46,6 +46,15 @@ def load_model(method, checkpoint_path, device):
                     decoder_heads=ckpt_args.get("decoder_heads", 3),
                     patch_size=ckpt_args.get("patch_size", 4),
                     mask_ratio=ckpt_args.get("mask_ratio", 0.75))
+    elif method == "ijepa":
+        from models.ijepa import IJEPA
+        model = IJEPA(embed_dim=ckpt_args.get("encoder_dim", 384),
+                      encoder_depth=ckpt_args.get("encoder_depth", 6),
+                      encoder_heads=ckpt_args.get("encoder_heads", 6),
+                      pred_depth=ckpt_args.get("pred_depth", 4),
+                      pred_heads=ckpt_args.get("pred_heads", 6),
+                      patch_size=ckpt_args.get("patch_size", 4),
+                      momentum=ckpt_args.get("momentum", 0.996))
     else:
         raise ValueError(f"Unknown method: {method}")
 
@@ -74,7 +83,7 @@ def main():
         if not method_dir.is_dir():
             continue
         method = method_dir.name
-        if method not in ("autoencoder", "simclr", "byol", "mae"):
+        if method not in ("autoencoder", "simclr", "byol", "mae", "ijepa"):
             continue
 
         checkpoints = sorted(method_dir.glob("*.pt"))

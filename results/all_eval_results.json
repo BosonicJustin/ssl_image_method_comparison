@@ -394,5 +394,689 @@
     },
     "linear_probe": 0.84125,
     "linear_probe_lowdata": 0.68325
+  },
+  {
+    "method": "byol",
+    "checkpoint": "results/byol/checkpoint_0499.pt",
+    "checkpoint_name": "checkpoint_0499.pt",
+    "epoch": 499,
+    "training_loss": 0.1906987590667529,
+    "knn": {
+      "1": 0.77225,
+      "5": 0.7955,
+      "10": 0.801875,
+      "20": 0.803875,
+      "50": 0.797,
+      "100": 0.792875,
+      "200": 0.78625
+    },
+    "linear_probe": 0.840625,
+    "linear_probe_lowdata": 0.685375
+  },
+  {
+    "method": "byol",
+    "checkpoint": "results/byol/last.pt",
+    "checkpoint_name": "last.pt",
+    "epoch": 499,
+    "training_loss": 0.1906987590667529,
+    "knn": {
+      "1": 0.77225,
+      "5": 0.7955,
+      "10": 0.801875,
+      "20": 0.803875,
+      "50": 0.797,
+      "100": 0.792875,
+      "200": 0.78625
+    },
+    "linear_probe": 0.84175,
+    "linear_probe_lowdata": 0.683375
+  },
+  {
+    "method": "ijepa",
+    "checkpoint": "results/ijepa/best.pt",
+    "checkpoint_name": "best.pt",
+    "epoch": 494,
+    "training_loss": 0.0341270489188341,
+    "knn": {
+      "1": 0.386625,
+      "5": 0.404875,
+      "10": 0.411625,
+      "20": 0.40225,
+      "50": 0.379375,
+      "100": 0.364,
+      "200": 0.344875
+    },
+    "linear_probe": 0.499375,
+    "linear_probe_lowdata": 0.264625
+  },
+  {
+    "method": "ijepa",
+    "checkpoint": "results/ijepa/checkpoint_0049.pt",
+    "checkpoint_name": "checkpoint_0049.pt",
+    "epoch": 49,
+    "training_loss": 0.057452894393832256,
+    "knn": {
+      "1": 0.429625,
+      "5": 0.452625,
+      "10": 0.47075,
+      "20": 0.48175,
+      "50": 0.47825,
+      "100": 0.465625,
+      "200": 0.447375
+    },
+    "linear_probe": 0.5815,
+    "linear_probe_lowdata": 0.277375
+  },
+  {
+    "method": "ijepa",
+    "checkpoint": "results/ijepa/checkpoint_0099.pt",
+    "checkpoint_name": "checkpoint_0099.pt",
+    "epoch": 99,
+    "training_loss": 0.06449378847311704,
+    "knn": {
+      "1": 0.437375,
+      "5": 0.466125,
+      "10": 0.4825,
+      "20": 0.493,
+      "50": 0.482,
+      "100": 0.46975,
+      "200": 0.451875
+    },
+    "linear_probe": 0.572375,
+    "linear_probe_lowdata": 0.307125
+  },
+  {
+    "method": "ijepa",
+    "checkpoint": "results/ijepa/checkpoint_0149.pt",
+    "checkpoint_name": "checkpoint_0149.pt",
+    "epoch": 149,
+    "training_loss": 0.06478987609346708,
+    "knn": {
+      "1": 0.443625,
+      "5": 0.479875,
+      "10": 0.48625,
+      "20": 0.496125,
+      "50": 0.48875,
+      "100": 0.480375,
+      "200": 0.4695
+    },
+    "linear_probe": 0.5575,
+    "linear_probe_lowdata": 0.31475
+  },
+  {
+    "method": "ijepa",
+    "checkpoint": "results/ijepa/checkpoint_0199.pt",
+    "checkpoint_name": "checkpoint_0199.pt",
+    "epoch": 199,
+    "training_loss": 0.06565114958928181,
+    "knn": {
+      "1": 0.435,
+      "5": 0.45925,
+      "10": 0.47225,
+      "20": 0.473375,
+      "50": 0.48025,
+      "100": 0.473,
+      "200": 0.458625
+    },
+    "linear_probe": 0.534,
+    "linear_probe_lowdata": 0.29275
+  },
+  {
+    "method": "ijepa",
+    "checkpoint": "results/ijepa/checkpoint_0249.pt",
+    "checkpoint_name": "checkpoint_0249.pt",
+    "epoch": 249,
+    "training_loss": 0.06533114145008417,
+    "knn": {
+      "1": 0.4235,
+      "5": 0.44275,
+      "10": 0.457625,
+      "20": 0.46125,
+      "50": 0.449,
+      "100": 0.433625,
+      "200": 0.42175
+    },
+    "linear_probe": 0.5245,
+    "linear_probe_lowdata": 0.282625
+  },
+  {
+    "method": "ijepa",
+    "checkpoint": "results/ijepa/checkpoint_0299.pt",
+    "checkpoint_name": "checkpoint_0299.pt",
+    "epoch": 299,
+    "training_loss": 0.056104662063985296,
+    "knn": {
+      "1": 0.409625,
+      "5": 0.427,
+      "10": 0.44275,
+      "20": 0.440625,
+      "50": 0.41975,
+      "100": 0.407125,
+      "200": 0.39625
+    },
+    "linear_probe": 0.5175,
+    "linear_probe_lowdata": 0.281
+  },
+  {
+    "method": "ijepa",
+    "checkpoint": "results/ijepa/checkpoint_0349.pt",
+    "checkpoint_name": "checkpoint_0349.pt",
+    "epoch": 349,
+    "training_loss": 0.04883686363792572,
+    "knn": {
+      "1": 0.40525,
+      "5": 0.417375,
+      "10": 0.432625,
+      "20": 0.429625,
+      "50": 0.405625,
+      "100": 0.396875,
+      "200": 0.380625
+    },
+    "linear_probe": 0.508375,
+    "linear_probe_lowdata": 0.2845
+  },
+  {
+    "method": "ijepa",
+    "checkpoint": "results/ijepa/checkpoint_0399.pt",
+    "checkpoint_name": "checkpoint_0399.pt",
+    "epoch": 399,
+    "training_loss": 0.04238730923105509,
+    "knn": {
+      "1": 0.39625,
+      "5": 0.409625,
+      "10": 0.42225,
+      "20": 0.419875,
+      "50": 0.393,
+      "100": 0.38125,
+      "200": 0.361125
+    },
+    "linear_probe": 0.50175,
+    "linear_probe_lowdata": 0.2705
+  },
+  {
+    "method": "ijepa",
+    "checkpoint": "results/ijepa/checkpoint_0449.pt",
+    "checkpoint_name": "checkpoint_0449.pt",
+    "epoch": 449,
+    "training_loss": 0.03673218628152823,
+    "knn": {
+      "1": 0.38725,
+      "5": 0.402625,
+      "10": 0.415375,
+      "20": 0.410625,
+      "50": 0.385,
+      "100": 0.369625,
+      "200": 0.347375
+    },
+    "linear_probe": 0.499,
+    "linear_probe_lowdata": 0.2685
+  },
+  {
+    "method": "ijepa",
+    "checkpoint": "results/ijepa/checkpoint_0499.pt",
+    "checkpoint_name": "checkpoint_0499.pt",
+    "epoch": 499,
+    "training_loss": 0.03607360951315898,
+    "knn": {
+      "1": 0.38625,
+      "5": 0.4045,
+      "10": 0.41125,
+      "20": 0.401625,
+      "50": 0.379125,
+      "100": 0.363875,
+      "200": 0.34475
+    },
+    "linear_probe": 0.499125,
+    "linear_probe_lowdata": 0.26375
+  },
+  {
+    "method": "ijepa",
+    "checkpoint": "results/ijepa/last.pt",
+    "checkpoint_name": "last.pt",
+    "epoch": 499,
+    "training_loss": 0.03607360951315898,
+    "knn": {
+      "1": 0.38625,
+      "5": 0.4045,
+      "10": 0.41125,
+      "20": 0.401625,
+      "50": 0.379125,
+      "100": 0.363875,
+      "200": 0.34475
+    },
+    "linear_probe": 0.49975,
+    "linear_probe_lowdata": 0.263375
+  },
+  {
+    "method": "mae",
+    "checkpoint": "results/mae/best.pt",
+    "checkpoint_name": "best.pt",
+    "epoch": 485,
+    "training_loss": 0.12419409285753201,
+    "knn": {
+      "1": 0.57125,
+      "5": 0.598875,
+      "10": 0.60575,
+      "20": 0.61125,
+      "50": 0.592625,
+      "100": 0.573,
+      "200": 0.53775
+    },
+    "linear_probe": 0.80425,
+    "linear_probe_lowdata": 0.42625
+  },
+  {
+    "method": "mae",
+    "checkpoint": "results/mae/checkpoint_0049.pt",
+    "checkpoint_name": "checkpoint_0049.pt",
+    "epoch": 49,
+    "training_loss": 0.14374025689485745,
+    "knn": {
+      "1": 0.477,
+      "5": 0.507375,
+      "10": 0.511875,
+      "20": 0.519875,
+      "50": 0.5115,
+      "100": 0.496,
+      "200": 0.468625
+    },
+    "linear_probe": 0.70125,
+    "linear_probe_lowdata": 0.372125
+  },
+  {
+    "method": "mae",
+    "checkpoint": "results/mae/checkpoint_0099.pt",
+    "checkpoint_name": "checkpoint_0099.pt",
+    "epoch": 99,
+    "training_loss": 0.13654076953728994,
+    "knn": {
+      "1": 0.507875,
+      "5": 0.53225,
+      "10": 0.537625,
+      "20": 0.541125,
+      "50": 0.529375,
+      "100": 0.511,
+      "200": 0.484375
+    },
+    "linear_probe": 0.748,
+    "linear_probe_lowdata": 0.386
+  },
+  {
+    "method": "mae",
+    "checkpoint": "results/mae/checkpoint_0149.pt",
+    "checkpoint_name": "checkpoint_0149.pt",
+    "epoch": 149,
+    "training_loss": 0.1330468139396264,
+    "knn": {
+      "1": 0.52225,
+      "5": 0.550875,
+      "10": 0.563875,
+      "20": 0.557625,
+      "50": 0.54225,
+      "100": 0.524,
+      "200": 0.495
+    },
+    "linear_probe": 0.766625,
+    "linear_probe_lowdata": 0.396
+  },
+  {
+    "method": "mae",
+    "checkpoint": "results/mae/checkpoint_0199.pt",
+    "checkpoint_name": "checkpoint_0199.pt",
+    "epoch": 199,
+    "training_loss": 0.13041841139396032,
+    "knn": {
+      "1": 0.544625,
+      "5": 0.565,
+      "10": 0.580625,
+      "20": 0.581375,
+      "50": 0.56375,
+      "100": 0.541,
+      "200": 0.511625
+    },
+    "linear_probe": 0.786625,
+    "linear_probe_lowdata": 0.4135
+  },
+  {
+    "method": "mae",
+    "checkpoint": "results/mae/checkpoint_0249.pt",
+    "checkpoint_name": "checkpoint_0249.pt",
+    "epoch": 249,
+    "training_loss": 0.12880372888384722,
+    "knn": {
+      "1": 0.556125,
+      "5": 0.581,
+      "10": 0.592,
+      "20": 0.594,
+      "50": 0.57575,
+      "100": 0.556125,
+      "200": 0.52175
+    },
+    "linear_probe": 0.7955,
+    "linear_probe_lowdata": 0.42225
+  },
+  {
+    "method": "mae",
+    "checkpoint": "results/mae/checkpoint_0299.pt",
+    "checkpoint_name": "checkpoint_0299.pt",
+    "epoch": 299,
+    "training_loss": 0.12737969517325742,
+    "knn": {
+      "1": 0.562125,
+      "5": 0.588625,
+      "10": 0.600375,
+      "20": 0.601,
+      "50": 0.583125,
+      "100": 0.564125,
+      "200": 0.5255
+    },
+    "linear_probe": 0.802125,
+    "linear_probe_lowdata": 0.42175
+  },
+  {
+    "method": "mae",
+    "checkpoint": "results/mae/checkpoint_0349.pt",
+    "checkpoint_name": "checkpoint_0349.pt",
+    "epoch": 349,
+    "training_loss": 0.1258816923468541,
+    "knn": {
+      "1": 0.566875,
+      "5": 0.594,
+      "10": 0.60525,
+      "20": 0.60575,
+      "50": 0.5895,
+      "100": 0.566375,
+      "200": 0.533625
+    },
+    "linear_probe": 0.802875,
+    "linear_probe_lowdata": 0.426875
+  },
+  {
+    "method": "mae",
+    "checkpoint": "results/mae/checkpoint_0399.pt",
+    "checkpoint_name": "checkpoint_0399.pt",
+    "epoch": 399,
+    "training_loss": 0.12507203192665026,
+    "knn": {
+      "1": 0.569625,
+      "5": 0.595125,
+      "10": 0.605875,
+      "20": 0.61,
+      "50": 0.594125,
+      "100": 0.571625,
+      "200": 0.536625
+    },
+    "linear_probe": 0.80325,
+    "linear_probe_lowdata": 0.4325
+  },
+  {
+    "method": "mae",
+    "checkpoint": "results/mae/checkpoint_0449.pt",
+    "checkpoint_name": "checkpoint_0449.pt",
+    "epoch": 449,
+    "training_loss": 0.12452265532352985,
+    "knn": {
+      "1": 0.570625,
+      "5": 0.598375,
+      "10": 0.6065,
+      "20": 0.61,
+      "50": 0.59525,
+      "100": 0.572125,
+      "200": 0.539125
+    },
+    "linear_probe": 0.804125,
+    "linear_probe_lowdata": 0.426
+  },
+  {
+    "method": "mae",
+    "checkpoint": "results/mae/checkpoint_0499.pt",
+    "checkpoint_name": "checkpoint_0499.pt",
+    "epoch": 499,
+    "training_loss": 0.12433432531662476,
+    "knn": {
+      "1": 0.5705,
+      "5": 0.599375,
+      "10": 0.60575,
+      "20": 0.611125,
+      "50": 0.59325,
+      "100": 0.573,
+      "200": 0.53825
+    },
+    "linear_probe": 0.804125,
+    "linear_probe_lowdata": 0.430375
+  },
+  {
+    "method": "mae",
+    "checkpoint": "results/mae/last.pt",
+    "checkpoint_name": "last.pt",
+    "epoch": 499,
+    "training_loss": 0.12433432531662476,
+    "knn": {
+      "1": 0.5705,
+      "5": 0.599375,
+      "10": 0.60575,
+      "20": 0.611125,
+      "50": 0.59325,
+      "100": 0.573,
+      "200": 0.53825
+    },
+    "linear_probe": 0.80425,
+    "linear_probe_lowdata": 0.4275
+  },
+  {
+    "method": "simclr",
+    "checkpoint": "results/simclr/best.pt",
+    "checkpoint_name": "best.pt",
+    "epoch": 496,
+    "training_loss": 4.435401382201757,
+    "knn": {
+      "1": 0.771875,
+      "5": 0.7985,
+      "10": 0.804375,
+      "20": 0.80475,
+      "50": 0.80075,
+      "100": 0.794125,
+      "200": 0.791375
+    },
+    "linear_probe": 0.8315,
+    "linear_probe_lowdata": 0.681875
+  },
+  {
+    "method": "simclr",
+    "checkpoint": "results/simclr/checkpoint_0049.pt",
+    "checkpoint_name": "checkpoint_0049.pt",
+    "epoch": 49,
+    "training_loss": 4.569661744435629,
+    "knn": {
+      "1": 0.67275,
+      "5": 0.706125,
+      "10": 0.71525,
+      "20": 0.716,
+      "50": 0.7145,
+      "100": 0.7075,
+      "200": 0.697875
+    },
+    "linear_probe": 0.75725,
+    "linear_probe_lowdata": 0.559
+  },
+  {
+    "method": "simclr",
+    "checkpoint": "results/simclr/checkpoint_0099.pt",
+    "checkpoint_name": "checkpoint_0099.pt",
+    "epoch": 99,
+    "training_loss": 4.523412914765187,
+    "knn": {
+      "1": 0.721375,
+      "5": 0.750375,
+      "10": 0.756,
+      "20": 0.75625,
+      "50": 0.75175,
+      "100": 0.74325,
+      "200": 0.73425
+    },
+    "linear_probe": 0.796375,
+    "linear_probe_lowdata": 0.617375
+  },
+  {
+    "method": "simclr",
+    "checkpoint": "results/simclr/checkpoint_0149.pt",
+    "checkpoint_name": "checkpoint_0149.pt",
+    "epoch": 149,
+    "training_loss": 4.4986373473436405,
+    "knn": {
+      "1": 0.739375,
+      "5": 0.76925,
+      "10": 0.772375,
+      "20": 0.777375,
+      "50": 0.772375,
+      "100": 0.765875,
+      "200": 0.758
+    },
+    "linear_probe": 0.81075,
+    "linear_probe_lowdata": 0.654625
+  },
+  {
+    "method": "simclr",
+    "checkpoint": "results/simclr/checkpoint_0199.pt",
+    "checkpoint_name": "checkpoint_0199.pt",
+    "epoch": 199,
+    "training_loss": 4.480938539749537,
+    "knn": {
+      "1": 0.751875,
+      "5": 0.776,
+      "10": 0.78375,
+      "20": 0.780625,
+      "50": 0.777625,
+      "100": 0.768875,
+      "200": 0.76625
+    },
+    "linear_probe": 0.816875,
+    "linear_probe_lowdata": 0.6625
+  },
+  {
+    "method": "simclr",
+    "checkpoint": "results/simclr/checkpoint_0249.pt",
+    "checkpoint_name": "checkpoint_0249.pt",
+    "epoch": 249,
+    "training_loss": 4.46643056502709,
+    "knn": {
+      "1": 0.761,
+      "5": 0.78275,
+      "10": 0.793125,
+      "20": 0.7895,
+      "50": 0.785375,
+      "100": 0.7795,
+      "200": 0.775875
+    },
+    "linear_probe": 0.823,
+    "linear_probe_lowdata": 0.67125
+  },
+  {
+    "method": "simclr",
+    "checkpoint": "results/simclr/checkpoint_0299.pt",
+    "checkpoint_name": "checkpoint_0299.pt",
+    "epoch": 299,
+    "training_loss": 4.454770113871648,
+    "knn": {
+      "1": 0.763625,
+      "5": 0.791375,
+      "10": 0.798,
+      "20": 0.795625,
+      "50": 0.7925,
+      "100": 0.784375,
+      "200": 0.782125
+    },
+    "linear_probe": 0.82675,
+    "linear_probe_lowdata": 0.674
+  },
+  {
+    "method": "simclr",
+    "checkpoint": "results/simclr/checkpoint_0349.pt",
+    "checkpoint_name": "checkpoint_0349.pt",
+    "epoch": 349,
+    "training_loss": 4.447657549686921,
+    "knn": {
+      "1": 0.77175,
+      "5": 0.796375,
+      "10": 0.803625,
+      "20": 0.800125,
+      "50": 0.79775,
+      "100": 0.7925,
+      "200": 0.78775
+    },
+    "linear_probe": 0.83175,
+    "linear_probe_lowdata": 0.681375
+  },
+  {
+    "method": "simclr",
+    "checkpoint": "results/simclr/checkpoint_0399.pt",
+    "checkpoint_name": "checkpoint_0399.pt",
+    "epoch": 399,
+    "training_loss": 4.44063801643176,
+    "knn": {
+      "1": 0.77275,
+      "5": 0.7965,
+      "10": 0.806,
+      "20": 0.80275,
+      "50": 0.799625,
+      "100": 0.793625,
+      "200": 0.788625
+    },
+    "linear_probe": 0.832875,
+    "linear_probe_lowdata": 0.679125
+  },
+  {
+    "method": "simclr",
+    "checkpoint": "results/simclr/checkpoint_0449.pt",
+    "checkpoint_name": "checkpoint_0449.pt",
+    "epoch": 449,
+    "training_loss": 4.437238346002041,
+    "knn": {
+      "1": 0.77225,
+      "5": 0.799,
+      "10": 0.80475,
+      "20": 0.801625,
+      "50": 0.79925,
+      "100": 0.7935,
+      "200": 0.791125
+    },
+    "linear_probe": 0.83125,
+    "linear_probe_lowdata": 0.685375
+  },
+  {
+    "method": "simclr",
+    "checkpoint": "results/simclr/checkpoint_0499.pt",
+    "checkpoint_name": "checkpoint_0499.pt",
+    "epoch": 499,
+    "training_loss": 4.436508763142121,
+    "knn": {
+      "1": 0.771875,
+      "5": 0.798375,
+      "10": 0.803625,
+      "20": 0.803,
+      "50": 0.8,
+      "100": 0.794875,
+      "200": 0.789125
+    },
+    "linear_probe": 0.83075,
+    "linear_probe_lowdata": 0.683125
+  },
+  {
+    "method": "simclr",
+    "checkpoint": "results/simclr/last.pt",
+    "checkpoint_name": "last.pt",
+    "epoch": 499,
+    "training_loss": 4.436508763142121,
+    "knn": {
+      "1": 0.771875,
+      "5": 0.798375,
+      "10": 0.803625,
+      "20": 0.803,
+      "50": 0.8,
+      "100": 0.794875,
+      "200": 0.789125
+    },
+    "linear_probe": 0.830625,
+    "linear_probe_lowdata": 0.682375
   }
 ]

@@ -214,7 +214,8 @@ class IJEPA(nn.Module):
         pred_reps = self.predictor(context_tokens, ids_restore, ids_target)
         pred_reps = F.normalize(pred_reps, dim=-1)
 
-        return F.mse_loss(pred_reps, target_reps)
+        # MSE per patch (sum over feature dim, mean over batch and patches)
+        return ((pred_reps - target_reps) ** 2).sum(dim=-1).mean()
 
 
 if __name__ == "__main__":
