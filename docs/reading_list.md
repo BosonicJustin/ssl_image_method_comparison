@@ -40,7 +40,7 @@ Status key: `[ ]` unread | `[~]` skimmed | `[x]` read
 
 ### Frozen encoder systems
 
-- [ ] **Bharadhwaj et al. ICML 2025** — "DINO-WM: World Models on Pre-trained Visual Features Enable Zero-shot Planning"
+- [x] **Bharadhwaj et al. ICML 2025** — "DINO-WM: World Models on Pre-trained Visual Features Enable Zero-shot Planning"
   [arXiv:2411.04983](https://arxiv.org/abs/2411.04983) | [Project](https://dino-wm.github.io/)
   Frozen DINOv2 patch features + ViT dynamics model. SR=0.90 on Push-T (DreamerV3: 0.04). Only tests DINOv2.
   - Insights:
